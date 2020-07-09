@@ -1,3 +1,6 @@
+![alt text](https://github.com/gradio-app/hotdog-or-not-hotdog/blob/master/gradio-screenshot.png?raw=true)
+
+
 # hotdog-or-not-hotdog
 Implementation of Hot Dog or not app from Silicon Valley (CNN to identify if the given picture is a hot dog or not)
 
