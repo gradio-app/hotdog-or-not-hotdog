@@ -33,7 +33,7 @@ examples = [
 ]
 
 gradio.Interface(predict, "image", "label", title="Hotdog or Not?",
-                 description="Based off of Jian Yang's infamous model from the TV show Silicon Valley, this model is pretty much gas one job, just like the name suggests.",
+                 description="Based off of Jian Yang's infamous model from the TV show Silicon Valley, this model has one job, just like its name suggests.",
                  thumbnail="https://raw.githubusercontent.com/gradio-app/hotdog-or-not-hotdog/master/gradio-screenshot2.png",
                  examples=examples
                  ).launch(
