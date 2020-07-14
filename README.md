@@ -1,4 +1,4 @@
-![alt text](https://github.com/gradio-app/hotdog-or-not-hotdog/blob/master/gradio-screenshot.png?raw=true)
+![alt text](https://github.com/gradio-app/hotdog-or-not-hotdog/blob/master/gradio-screenshot2.png?raw=true)
 
 
 # hotdog-or-not-hotdog
