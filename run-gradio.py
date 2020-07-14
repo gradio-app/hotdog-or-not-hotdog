@@ -42,6 +42,7 @@ examples = [
 gradio.Interface(predict, "image", "label", title="Hotdog / Not Hotdog",
                  description="Jian Yang's infamous model. Credit to "
                              "https://github.com/VPanjeta/hotdog-or-not-hotdog",
+                 thumbnail="https://raw.githubusercontent.com/gradio-app/hotdog-or-not-hotdog/master/gradio-screenshot.png",
                  examples=examples
                  ).launch(
     inbrowser=True)
