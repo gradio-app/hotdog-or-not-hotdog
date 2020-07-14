@@ -23,7 +23,8 @@ def predict(inp):
         result = session.run(tensor, {'DecodeJpeg/contents:0': data})[0]
     
     os.remove(filename)
-    return {'hot dog': result[0], 'not hot dog': result[1]}
+    print({'hot dog': float(result[0]), 'not hot dog': float(result[1])})
+    return {'hot dog': float(result[0]), 'not hot dog': float(result[1])}
 
 examples = [
     ["Big-Italian-Salad.jpg"],
@@ -36,5 +37,4 @@ gradio.Interface(predict, "image", "label", title="Hotdog or Not?",
                  description="Based off of Jian Yang's infamous model from the TV show Silicon Valley, this model has one job, just like its name suggests.",
                  thumbnail="https://raw.githubusercontent.com/gradio-app/hotdog-or-not-hotdog/master/gradio-screenshot2.png",
                  examples=examples
-                 ).launch(
-    inbrowser=True)
+                 ).launch()
