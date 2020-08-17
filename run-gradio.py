@@ -27,7 +27,6 @@ def predict(inp):
     return {'hot dog': float(result[0]), 'not hot dog': float(result[1])}
 
 examples = [
-    ["Big-Italian-Salad.jpg"],
     ["hotdog2.jpeg"],
     ["soup.jpg"],
     ["hotdog.jpeg"]
